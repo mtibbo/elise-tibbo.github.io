@@ -2,12 +2,20 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+}
+
+.logo {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  img {
+    width: 500px;
+  }
 }
 
 .site-title {
@@ -25,7 +33,7 @@
 }
 
 .site-nav {
-  float: right;
+  text-align: center;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -39,10 +47,20 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
 
+    &.active {
+      color: #ec8b6b;
+    }
+
+    &:hover {
+      color: #ec8b6b;
+    }
     // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
+    &:not(:first-child) {
+      margin-left: 70px;
     }
   }
 
@@ -191,6 +209,7 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  text-align: center;
 
   > li {
     width: $spacing-post;
@@ -225,7 +244,7 @@
       opacity: 1;
     }
     .post-image {
-      filter: brightness(50%) sepia(70) saturate(20);
+      filter: brightness(50%) sepia(70) saturate(10);
     }
 
   }
