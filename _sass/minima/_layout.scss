@@ -16,6 +16,20 @@
   img {
     width: 500px;
   }
+
+  .social-buttons {
+    font-size: 1.5em;
+
+    a {
+      color: #111111;
+      text-decoration: none;
+      &:hover {
+
+        color: #ec8b6b;
+      }
+    }
+
+  }
 }
 
 .site-title {
@@ -125,12 +139,25 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #ed896c;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+
+  a {
+    color: #555555;
+    text-decoration: none;
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .contact-list,
