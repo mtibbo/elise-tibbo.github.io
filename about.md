@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: À propos
 permalink: /about/
 order: 2

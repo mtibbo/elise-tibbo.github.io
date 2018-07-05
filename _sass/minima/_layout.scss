@@ -425,3 +425,20 @@ input[type=submit] {
   }
 }
 
+/**
+ * About
+ */
+
+
+.photo {
+  text-align: center;
+
+  img {
+    width: 300px;
+    border-radius: 50%;
+  }
+}
+
+.about-content {
+  margin-top: $spacing-unit;
+}
