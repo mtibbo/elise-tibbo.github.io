@@ -14,7 +14,7 @@ layout: default
       {%- for post in site.posts -%}
       <li class="post-card">
         <a class="post-link" href="{{ post.url | relative_url }}">
-          <img class="post-image" src="{{ post.image }}" alt="">
+          <img class="post-image" src="{{ site.url }}/assets/img/{{ post.image }}" alt="">
           <span class="post-image-title">
               {{ post.title | escape }}
           </span>
