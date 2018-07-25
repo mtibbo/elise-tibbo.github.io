@@ -8,3 +8,8 @@ categories: work
 ---
 
 
+Template calendrier Italie
+----
+
+Calendrier réalisé durant un de mes stages, avec un thème la voiture vintage.
+J'ai donc choisi le voyage à travers les voitures en prennent comme pays l'Italie.

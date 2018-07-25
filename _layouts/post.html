@@ -14,10 +14,14 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>-->
   </header>
-<!--
+
+  <div class="post-image-header">
+    <img src="{{ site.url }}/assets/img/{{ page.fullImage }}" alt="">
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-  </div>-->
-  <img class="post-image-header" src="{{ site.url }}/assets/img/{{ page.fullImage }}" alt="">
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </div>
 </article>

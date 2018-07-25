@@ -305,6 +305,11 @@
   margin-bottom: $spacing-unit;
 }
 
+.post-image-header {
+  width: 800px;
+  margin: auto;
+}
+
 .post-title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
